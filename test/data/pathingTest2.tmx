@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="10" height="10" tilewidth="32" tileheight="32" nextobjectid="1">
+ <tileset firstgid="1" name="test" tilewidth="32" tileheight="32">
+  <image source="test.png" width="256" height="256"/>
+ </tileset>
+ <layer name="Tile Layer 1" width="10" height="10">
+  <data encoding="base64" compression="zlib">
+   eJzjYGBg4BjFgwYDAHjuAyE=
+  </data>
+ </layer>
+ <layer name="Path" width="10" height="10">
+  <data encoding="base64" compression="zlib">
+   eJxjYIAAVgbiACsSJlY9sebhM5cVC41NPTZ1+NxBSB2x5mHzBznhBAB43ACr
+  </data>
+ </layer>
+</map>

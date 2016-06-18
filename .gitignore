@@ -1,0 +1,5 @@
+*.o
+tower
+data/*.otf
+dep/
+test/PathRouterTest

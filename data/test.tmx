@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="25" height="25" tilewidth="64" tileheight="64" nextobjectid="6">
+ <tileset firstgid="1" name="test" tilewidth="64" tileheight="64">
+  <image source="test.png" width="256" height="256"/>
+ </tileset>
+ <layer name="Background" width="25" height="25">
+  <data encoding="base64" compression="zlib">
+   eJztw8EJAAAMA6F7ZP+ZO0dBwVVTVfXVA88VCcU=
+  </data>
+ </layer>
+ <objectgroup name="Goals" visible="0">
+  <object id="1" name="EndPoint" x="1157.33" y="1545.33" width="49.3333" height="50.6667">
+   <properties>
+    <property name="objectID" value="2"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <layer name="Path" width="25" height="25">
+  <data encoding="base64" compression="zlib">
+   eJzt1DsKACAMA9BC739ndxfzaZ0ScNM8P2AVlgbnoWlyqP3Kfpg1SrYN9eyswQZx3Hd/OU4v0jXZf3e694Ja2/llTP8pyh5ixIgRY9M4KXsAzQ==
+  </data>
+ </layer>
+ <objectgroup name="Spawns" visible="0">
+  <object id="5" name="SpawnPoint" x="652" y="18" width="36" height="40">
+   <properties>
+    <property name="Monsters" value="0,0,0,0"/>
+    <property name="SpawnRate" value="3.0"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>
